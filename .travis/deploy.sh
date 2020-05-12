@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-mvn deploy -DskipTests -P release --settings cd/mvnsettings.xml
+mvn deploy -DskipTests -P release --settings .travis/mvnsettings.xml
 
